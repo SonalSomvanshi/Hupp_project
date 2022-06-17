@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Overpass:wght@800&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;800&display=swap');
+body{font-family: 'Overpass', sans-serif;}
+p{font-size: 15px;}
+*{line-height: 26px;}
+.nav-link{color: black;padding-right: 160px;}
+.btn_border{border-radius: 5px;display: inline-block; border: 2px solid #c04ae2;text-decoration: none;color: black;padding: 8px 26px;font-family: 'Overpass', sans-serif;}
+.btn_border:hover{background: #c04ae2;color:#FFFFFF;}
+.btn_fill{text-decoration: none;border:none;display: inline-block; background: #c04ae2 ;color: white;border-radius: 5px;padding: 24px 80px;font-family: 'Overpass', sans-serif;}
+.navigation .navbar-toggler { border: none; padding: 0; width: 30px; } 
+.navigation .navbar-toggler img{ display: block; max-width: 100%; }
+.navigation .navbar-nav {    margin-right: 20px; }
+.banner img{width: 100%;}
+.banner{margin:130px 0 0 0;padding: 0 0 50px 0;}
+.banner p{margin: 55px 0 55px 0;font-family: 'Poppins', sans-serif;font-weight: 400;font-size: 30px;line-height: 34px;}
+.banner h1{font-size:60px;font-weight:800;}
+.banner_bg{ background-image: linear-gradient(to bottom right, #ede0e3 , #d1e9f3 , #eceaf8 , #ece0f2);padding: 30px 0 0 0 ;}
+.business{text-align: center;padding: 100px 0 60px 0;}
+.business-title { max-width: 510px; margin: 0 auto;text-align: center; }
+.business h2{font-weight: 800;padding: 0 0 60px 0;}
+h4{color: #c04ae2;letter-spacing: 4px;text-transform: uppercase;}
+.box_1{border: 2px solid #fcd7df;border-radius: 20px; padding: 60px 43px;}
+.box_2{border: 2px solid #c9f3e2;border-radius: 20px; padding: 60px 43px;}
+.box_3{border: 2px solid #f2d5ba;border-radius: 20px; padding: 60px 43px;}
+.business h3{padding:30px 0 10px ;}
+.business_problem1{text-align: center;padding: 150px 0 0 0;}
+.business_problem2{text-align: center;}
+.cards{box-shadow:1px 1px 5px grey;padding: 60px 30px;border-radius: 20px;
+	margin-bottom: 30px;}
+	.cards p {margin-bottom: 30px;}
+.business_problem1 .col-lg-4:nth-child(2) { margin-top: 40px; }
+.business_problem1 .col-lg-4:nth-child(3) { margin-top: 70px; }
+.project .project_text{text-align: center;}
+.project h3{font-weight: 800;}
+.project .row{margin: 117px 0 0 0;}
+.project img{max-width: 100%;vertical-align: middle;}
+.cactus{border: 8px solid #fcd7df;height: 370px;max-width: 100%; border-radius: 15px; z-index: -1;}
+.devlopment{margin: 120px 0  0;}
+.devlopment p{padding: 40px 0;}
+.devlopment h5{color: #fe9a3f;}
+.portfolio{text-align: center;}
+.portfolio a{text-decoration: none;}
+.divider{border-bottom: 1px solid #c04ae2;margin: 20px 0;width: 70%;height: 10px;}
+.team{padding: 140px 0 0 0 ;}
+.team_two{margin: 200px 0 0 0;}
+.team_group{clear: both;padding: 200px 0 0 0;text-align: center;background-image:linear-gradient(to bottom right, #fbf2fd , #effdfa );}
+.team_group h6{opacity: 0.5;text-align: left;}
+.team_group h5{margin: 18px 0 0 0;text-align:left ;}
+.carousel{padding: 190px 0 120px 0;}
+.form-group{max-width: 100%; height: 60px;border: none;}
+.form_fill{padding: 70px 0 70px 0;background-image:linear-gradient(to bottom right, #fbf2fd , #effdfa );}
+.rou{margin: 40px 0 0 0;}
+.list_type{font-weight: 800;}
+form{padding: 0 0 60px 0;}
+
+
+/*** responsive css style starts here ***/
+@media (max-width:  1199px) {
+
+}
+
+@media (max-width:  991px) {
+	
+}
+
+@media (max-width:  767px) {
+	.banner h1{font-size: 30px;}
+	.banner p{font-size: 20px;}
+	.gap{padding: 0 0 20px 0;}
+	.form_fill{font-size: 20px;}
+
+}
